@@ -1,0 +1,39 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.intro {
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.intro img {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* 둥글게 만들기 */
+  object-fit: cover; /* 이미지가 비율에 맞게 잘리거나 확장되지 않도록 함 */
+}
+
+.intro p {
+  font-size: 1.5rem;
+}
+
+.diary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* 이미지 간의 간격 */
+  margin-top: 20px;
+}
+
+.diary-item img {
+  width: 300px; /* 이미지 가로 크기 고정 */
+  height: 300px; /* 이미지 세로 크기 고정 */
+  border-radius: 10px;
+  object-fit: cover; /* 이미지를 컨테이너에 맞게 자르고 채우기 */
+  cursor: pointer;
+}

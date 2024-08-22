@@ -1,0 +1,58 @@
+/* 기존 CSS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.image-des-box {
+  margin-top: 60px;
+  display: flex;
+  gap: 5rem;
+}
+
+.image-preview {
+  border: 8px solid black;
+  border-radius: 10px;
+}
+
+/* 막대바(bar) 스타일 추가 */
+.prediction-bar {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.prediction-bar > p {
+  font-size: 1.25rem;
+}
+
+.prediction-bar p {
+  margin: 10px 10px 0 0;
+}
+
+.bar {
+  width: 200px;
+  height: 20px;
+  background-color: #f0e68c;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.bar-inner {
+  height: 100%;
+  background-color: #ffa500; /* 막대바 색상 */
+  border-radius: 10px;
+}
