@@ -1,0 +1,13 @@
+/* 기존 CSS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 60px;
+}

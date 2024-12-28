@@ -1,0 +1,51 @@
+.nav-header {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 170px;
+  height: 170px;
+  cursor: pointer;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-menu li {
+  display: inline;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Button css */
+
+.button {
+  font-family: "Black Han Sans", sans-serif;
+  width: 60%;
+  height: 70px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  margin: 30px;
+  cursor: pointer;
+}
